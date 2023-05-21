@@ -1,0 +1,9 @@
+CRITICAL - 2023-05-01 01:48:51 --> Too few arguments to function CodeIgniter\Router\RouteCollection::get(), 1 passed in D:\Programs\xampp\htdocs\KevinLemus\app\Config\Routes.php on line 37 and at least 2 expected
+in SYSTEMPATH\Router\RouteCollection.php on line 915.
+ 1 APPPATH\Config\Routes.php(37): CodeIgniter\Router\RouteCollection->get('/Roles')
+ 2 SYSTEMPATH\Router\RouteCollection.php(267): require('D:\\Programs\\xampp\\htdocs\\KevinLemus\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(802): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Programs\\xampp\\htdocs\\KevinLemus\\public\\index.php')
